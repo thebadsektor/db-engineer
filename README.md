@@ -8,11 +8,11 @@ This project aims to reconstruct missing foreign key relationships in a legacy P
 
 ### CSV Format:
 
-| referencing_table | referencing_column | referenced_table | referenced_column |
-|-------------------|--------------------|------------------|-------------------|
-| orders            | customer_id        | customers        | customer_id       |
-| invoices          | order_id           | orders           | order_id          |
-| ...               | ...                | ...              | ...               |
+| referencing_table | referencing_column | referenced_table   | referenced_column |
+|-------------------|--------------------|--------------------|-------------------|
+| ORHistory         | UserID             | ORHistoryPATAS     | UserID            |
+| TDN               | RecomApprovedById  | view_TDNTaxDecCity | RecomApprovedById |
+| ...               | ...                | ...                | ...               |
 
 ## 🎯 Objective
 
