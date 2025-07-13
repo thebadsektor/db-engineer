@@ -39,6 +39,11 @@ This project aims to reconstruct missing foreign key relationships in a legacy P
 
 4. Create a summary report:
    - Columns: candidate status (valid/invalid), confidence score, SQL preview.
+  
+5. Challenges in this legacy database. These are caveats that you should keep in mind when exploring or working with this database.
+  - A lot of inconsistencis with referencing. Ex: id names don't match in syntax only in meaning. Therefore, difficult to automate with scripts.
+  - There are some ID mappings that are of incompatible data types: string to big int, etc...
+  - Some IDs are nullable (and contains null values)
 
 ## 🛠 Output
 
