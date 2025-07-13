@@ -56,6 +56,6 @@ Database credentials should be configured securely via environment variables or 
 
 ## 📬 Prompt
 
----
+```
 Use the list of candidate foreign key relationships in fk_candidates.csv. For each row, validate if the referencing column values exist in the referenced table. If ≥90% match, generate a safe ALTER TABLE SQL constraint and write it to suggested_constraints.sql.
----
+```
